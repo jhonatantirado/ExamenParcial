@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BigO\Combinations.cs" />
+    <Compile Include="BigO\Duplicates.cs" />
+    <Compile Include="CleanCode\FailFastReturnEarly.cs" />
+    <Compile Include="CleanCode\ImplicitBoolean.cs" />
+    <Compile Include="DirtyCode\FailFastReturnEarly.cs" />
+    <Compile Include="DirtyCode\ImplicitBoolean.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

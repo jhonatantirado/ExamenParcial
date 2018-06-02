@@ -1,1 +1,5 @@
 E:\Documents\MAESTRIA\CICLO I\AMBIENTES DE DESARROLLO\Examen\ExamenParcialADS\ExamenParcialADS\bin\Debug\ExamenParcialADS.exe.config
+E:\Documents\MAESTRIA\CICLO I\AMBIENTES DE DESARROLLO\Examen\ExamenParcialADS\ExamenParcialADS\bin\Debug\ExamenParcialADS.exe
+E:\Documents\MAESTRIA\CICLO I\AMBIENTES DE DESARROLLO\Examen\ExamenParcialADS\ExamenParcialADS\bin\Debug\ExamenParcialADS.pdb
+E:\Documents\MAESTRIA\CICLO I\AMBIENTES DE DESARROLLO\Examen\ExamenParcialADS\ExamenParcialADS\obj\Debug\ExamenParcialADS.exe
+E:\Documents\MAESTRIA\CICLO I\AMBIENTES DE DESARROLLO\Examen\ExamenParcialADS\ExamenParcialADS\obj\Debug\ExamenParcialADS.pdb

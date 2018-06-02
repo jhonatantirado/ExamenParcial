@@ -6,16 +6,47 @@ using System.Threading.Tasks;
 
 namespace ExamenParcialADS.BigO
 {
-    class Duplicates
+    public class Duplicates
     {
         public static void main(String[] args)
         {
             Duplicates duplicates = new Duplicates();
             int[] numbers = { 45, 69, 2, 1, 3, 7, 8, 9, 10, 11, 15, 17, 18, 20, 25, 26, 27, 19, 38, 38 };
-            ResultDto resultDto = duplicates.duplicateValues(numbers);
+            ResultDto resultDto = duplicates.duplicateValuesNew(numbers);
             Console.WriteLine("N: " + numbers.Length);
             Console.WriteLine("Has duplicate values: " + resultDto.hasDuplicates());
             Console.WriteLine("Steps: " + resultDto.getSteps());
+        }
+
+
+        public ResultDto duplicateValuesNew(int[] numbers)
+        {
+            HashSet<int> unicos = new HashSet<int>();
+            long steps = 0;
+
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                steps++;
+                if (!unicos.Contains(numbers[i]))
+                {
+                    unicos.Add(numbers[i]);
+                }
+            }
+
+            steps++;
+
+            ResultDto resultDto = new ResultDto();
+
+            if (unicos.Count < numbers.Length)
+            {
+                resultDto.setHasDuplicates(true);
+                resultDto.setSteps(steps);
+                return resultDto;
+            }
+
+            resultDto.setHasDuplicates(false);
+            resultDto.setSteps(steps);
+            return resultDto;
         }
 
         public ResultDto duplicateValues(int[] numbers)
