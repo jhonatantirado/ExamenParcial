@@ -10,7 +10,8 @@ namespace ExamenParcialADS
     {
         static void Main(string[] args)
         {
-            BigO.Duplicates.main(args);
+            //BigO.Duplicates.main(args);
+            BigO.Combinations.main(args);
         }
     }
 }
